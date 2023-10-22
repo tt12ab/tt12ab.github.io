@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <link rel="icon" href="image/logo/logo3.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="css/fonts/themify-icons-font/themify-icons/themify-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>DOLISHOP-Shop Quần Áo Số 1 Việt Nam</title>
+</head>
+<body class="preloading">
+
+    <!-- <div class="loading">
+        <div class="loading-1">
+            <div class="loading-2">
+            </div>
+        </div>
+        <div class="img-load"><img src="image/backgroud-footer/load/load.jpg" alt=""></div>
+    </div> -->
+    <div class="backtop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <div id="lienhe">
+        <i class="far fa-comments"></i>
+        <p>Liên hệ</p>
+    </div>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo-main">
+                <a href="index.html" id="home">
+                    <img src="image/logo/logo3.jpg" alt="">
+                </a>
+            </div>
+            <div class="icons">
+                <div class="icon"><a href="login.html"><i class="far fa-user-circle"></i></a></div>
+                <label for="search-btn-pc-cb" id="search-item" class="icon"><a><i class="fas fa-search"></i></a></label>
+                <div class="icon"><a><i class="far fa-heart"></i></a></div>
+                <div class="icon bag"><a href="cart.html"><i class="ti-bag"></i></a>
+                    <div class="number-sp">
+                        <p>0</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-list">
+                <ul class="menu">
+                    <li class="menu-item"><a href="new-arrivals.html" class="item-link">new arrivals</a></li>
+                    <li class="menu-item"><a href="donam.html" class="item-link">đồ nam</a></li>
+                    <li class="menu-item"><a href="donu.html" class="item-link">đồ nữ</a></li>
+                    <li class="menu-item"><a href="couple.html" class="item-link">đồ đôi</a></li>
+                    <li class="menu-item"><a href="ao-khoac.html" class="item-link">áo khoác</a></li>
+                    <li class="menu-item"><a href="hat.html" class="item-link">phụ kiện</a></li>
+                    <li class="menu-item hot-pc"><a href="uudaihot.html" class="item-link">ưu đãi hot</a>
+                        <div class="hot"><p>Hot</p></div>
+                    </li>
+                    <li class="menu-item"><a href="chinhsach.html" class="item-link">chính sách</a></li>
+                    <li class="menu-item hot-pc"><a href="https://www.facebook.com/groups/TotofanzoneTotoshop" class="item-link">doli fanzone</a>
+                        <div class="hot"><p>Hot</p></div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="hotline">
+                <div class="sdt">
+                    <a href="#" class="phone">
+                        <i class="fas fa-phone-volume"></i>
+                        <p class="number">1900 633 501</p>
+                    </a>
+                </div>
+
+                <div class="mxh">
+                    <a href="https://www.facebook.com/Totoshop.com.vn/" class="link-mxh"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/channel/UCNlOKoeutijiatYxUkDXGnA" class="link-mxh"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/totoshopvn" class="link-mxh"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-mobile">
+            <div class="navbar-mb">
+                <label for="sidebar-btn" class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </label>
+
+                <div class="logo-mb">
+                    <a href="index.html"><img src="image/logo/logo.jpg" alt=""></a>
+                </div>
+
+                <div class="icons-mb">
+                    <label for="search-btn-mb-cb" class="icon-mb"><i class="fas fa-search"></i></label>
+                    <div class="icon-mb"><i class="far fa-heart"></i></i></div>
+                    <div class="icon-mb tibag-mb"><i class="ti-bag"></i>
+                        <div class="number-sp-mb">
+                            <p>0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="checkbox" class="input-menu" id="sidebar-btn">
+            <label for="sidebar-btn" class="overlay-mb"></label>
+            <div class="sidebar">
+                <div class="logo-main-mb">
+                    <a href="index.html" id="home">
+                        <img src="image/logo/logo.jpg" alt="">
+                        <div class="hot"><p>Hot</p></div>
+                    </a>
+                </div>
+                <div class="icons">
+                    <div class="icon"><i class="far fa-user-circle"></i></div>
+                    <div class="icon"><i class="far fa-heart"></i></div>
+                </div>
+        
+                <div class="menu-list">
+                    <ul class="menu">
+                        <li class="menu-item"><a href="new-arrivals.html" class="item-link">new arrivals</a></li>
+                        <li class="menu-item"><a href="donam.html" class="item-link">đồ nam</a></li>
+                        <li class="menu-item"><a href="donu.html" class="item-link">đồ nữ</a></li>
+                        <li class="menu-item"><a href="couple.html" class="item-link">đồ đôi</a></li>
+                        <li class="menu-item"><a href="ao-khoac.html" class="item-link">áo khoác</a></li>
+                        <li class="menu-item"><a href="hat.html" class="item-link">phụ kiện</a></li>
+                        <li class="menu-item"><a href="uudaihot.html" class="item-link">ưu đãi hot</a></li>
+                        <li class="menu-item"><a href="chinhsach.html" class="item-link">chính sách</a></li>
+                        <li class="menu-item"><a href="https://www.facebook.com/groups/TotofanzoneTotoshop" class="item-link">doli fanzone</a></li>
+                    </ul>
+                </div>
+                <label for="sidebar-btn" class="close-mb"><i class="fas fa-times"></i></label>
+            </div>
+        </div>
+    
+        <div class="container grid">
+            <input type="checkbox" class="input-search-pc" id="search-btn-pc-cb">
+            <div class="search-item">
+                <div class="input-search">
+                    <i class="ti-search"></i>
+                    <input type="text" placeholder="Tìm kiếm..." autofocus>
+                    <label for="search-btn-pc-cb"><i class="fas fa-times"></i></label>
+                </div>
+            </div>
+
+            <!-- mobile -->
+            <input type="checkbox" class="input-search-checkbox" id="search-btn-mb-cb">
+            <div class="search-item-mb">
+                
+                <div class="input-search-mb">
+                    <i class="ti-search"></i>
+                    <input type="text" placeholder="Tìm kiếm..." autofocus>
+                    <label for="search-btn-mb-cb"><i class="fas fa-times"></i></label>
+                </div>
+                
+            </div>
+            <div class="slider-show">
+                <div class="slider">
+                    <div class="slides">
+                        <!-- tạo radio -->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        
+                    
+    
+                        <!--ảnh trình chiếu -->
+                        <div class="slide first">
+                            <img id="img" onclick="changeImage" src="image/slide show/slide-1.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="image/slide show/slide-2.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="image/slide show/slide-3.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="image/slide show/slide-4.png" alt="">
+                        </div>
+        
+                        <!-- auto navigation  tự chạy slide -->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                            
+                        </div>
+                    </div>
+    
+                    <!-- manual navigation click vào radio để chuyển slide-->
+                    <!-- <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                        
+                    </div> -->
+                </div>
+            </div> 
+
+            <div class="content">
+                
+
+                <div class="products ">
+                    <div class="header row">
+                        <h3 class="heading">Đồ nam</h3>
+                        <div class="kt">
+                            <span class="title-litter">
+                                <i class="far fa-circle"></i>
+                            </span>
+                        </div>
+                        <div class="product-list-menu-link">
+                            <div class="product-menu-title">
+                                <span>ÁO THUN NAM</span>
+                                <div class="product-menu-main">
+                                    <a href="ao-thun-taydai-nam.html" class="product-link-item">Áo tun tay dài nam</a>
+                                    <a href="ao-thun-tayngan-nam.html" class="product-link-item">Áo thun tay ngắn nam</a>
+                                    <a href="ao-thun-polo-nam.html" class="product-link-item">Áo thun polo nam</a>
+                                </div>
+                            </div>
+                            <div class="product-menu-title ">
+                                <span>ÁO SƠ MI NAM</span>
+                                <div class="product-menu-main">
+                                    <a href="ao-somi-taydai-nam.html" class="product-link-item">Áo sơ mi tay ngắn nam</a>
+                                    <a href="ao-somi-tayngan-nam.html" class="product-link-item">Áo sơ mi tay dài nam</a>
+                                </div>
+                            </div>
+                            <div class="product-menu-title kbd">
+                                <span>QUẦN SHORT NAM</span>
+                                <div class="product-menu-main">
+                                    <a href="ao-khoac-du-doi.html" class="product-link-item">Quần short kaki nam</a>
+                                    <a href="ao-khoac-kaki-doi.html" class="product-link-item">Quần short jean nam</a>
+                                    <a href="ao-khoac-hoodie-doi.html" class="product-link-item">Quần short thun nam</a>
+                                    <a href="ao-khoac-nhung-nam.html" class="product-link-item">Quần short tây nam</a>
+                                </div>
+                            </div>
+                            <div class="product-menu-title kbd">
+                                <span>QUẦN DÀI NAM</span>
+                                <div class="product-menu-main">
+                                    <a href="ao-somi-taydai-nam.html" class="product-link-item">Quần jean cá tính nam</a>
+                                    <a href="ao-somi-tayngan-nam.html" class="product-link-item">Quần jean đơn giản nam</a>
+                                    <a href="ao-somi-tayngan-nam.html" class="product-link-item">Quần joke nam</a>
+                                    <a href="ao-somi-tayngan-nam.html" class="product-link-item">Quần kaki nam</a>
+                                    <a href="ao-somi-tayngan-nam.html" class="product-link-item">Quần tây nam</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-search-list">
+                            <div class="loc">
+                                <i class="ti-menu-alt product-search-icon"></i>
+                                <span class="product-search-text">Lọc</span>
+                            </div>
+                            <div class="xem">
+                                <span class="product-search-text">Xem:</span>
+                                <i class="ti-layout-grid2 product-search-icon product-search-icon-2"></i>
+                                <i class="ti-layout-column2 product-search-icon"></i>
+                            </div>
+                            <div class="sapxep ">
+                                <span class="product-search-text">Sắp xếp theo</span>
+                                <div class="sapxep-list ">
+                                    <span class="product-search-text product-search-text-md" id="cart-btn">Mặc định</span>
+                                    <div class="sapxep-item shopping-cart-container">
+                                        <a href="#">Mặc định</a>
+                                        <a href="#">Giá: Giảm dần</a>
+                                        <a href="#">Giá: Tăng dần</a>
+                                        <a href="#">A -> Z</a>
+                                        <a href="#">Z -> A</a>
+                                        <a href="#">Sản phẩm mới</a>
+                                        <a href="#">Sản phẩm nổi bật</a>
+                                        <a href="#">Sale</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="product-list row">
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-1.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_1.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_2.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_3.jpg" alt="">
+                                        </div>  
+                                          
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">285,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-2.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 2.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_7515.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_7514.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_7512.jpg" alt="">
+                                        </div>  
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_7513.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">265,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-3.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 3.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_7481.jpg" alt="">
+                                        </div>                                       
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">320,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-4.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 4.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_7480.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_7478.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_7477.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_7479.jpg" alt="">
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">285,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-5.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 5.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_10.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_11.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_12.jpg" alt="">
+                                        </div>
+                                          
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">285,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-6.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 6.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_13.jpg" alt="">
+                                        </div>                                      
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">415,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-7.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 7.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_14.jpg" alt="">
+                                        </div>    
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">345,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-8.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 8.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_15.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">345,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-9.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 9.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_9_1.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_9_2.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_9_3.jpg" alt="">
+                                        </div>  
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_9_3.jpg" alt="">
+                                        </div>                                       
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">285,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-10.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 10.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_10_1.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_10_2.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_10_3.jpg" alt="">
+                                        </div>  
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_10_4.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_10_5.jpg" alt="">
+                                        </div>
+                                          
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">320,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-11.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 11.jpg"  alt="">                                    
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">425,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-12.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 12.jpg"  alt="">                                    
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">415,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-13.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 13.jpg"  alt="">                                    
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">415,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-14.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 14.jpg"  alt="">                                    
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">415,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-15.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 15.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_15_1.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_15_2.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_15_3.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_15_4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">420,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-16.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 16.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_16_1.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_16_2.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_16_3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">385,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-17.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 17.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_17_1.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_17_2.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_17_3.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_17_4.jpg" alt="">
+                                        </div> 
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">315,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-18.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 18.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_18_1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">295,000 <span>đ</span></p>   
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-19.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 19.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_19_1.jpg" alt="">
+                                        </div> 
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">295,000 <span>đ</span></p>  
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-20.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 20.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_20_1.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_20_2.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_20_3.jpg" alt="">
+                                        </div> 
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_20_4.jpg" alt="">
+                                        </div> 
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_20_5.jpg" alt="">
+                                        </div> 
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">295,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-21.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 21.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_21_1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">315,000 <span>đ</span></p>
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-22.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 22.jpg"  alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="image/Do-nam/IMG_22_1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">295,000 <span>đ</span></p>
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-23.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 23.jpg"  alt="">
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">295,000 <span>đ</span></p>
+                            </div>   
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="donam-pd-24.html">
+                                <div class="image">
+                                    <img src="image/Do-nam/Dai_dien 24.jpg"  alt="">                                   
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">415,000 <span>đ</span></p>
+                                
+                            </div>   
+                        </div>
+                        <div class="product-page">
+                            <a href="donam.html" class="page-number">1</a>
+                            <a href="donam-page2.html">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">6</a>
+                            <a href="new-arrivals-page-next.html"><i class="ti-arrow-right"></i></a>
+
+                        </div>
+                    
+                    </div>
+                       
+                
+
+                
+                <div class="footer grid" data-aos="fade-up">
+                    <div class="footer-header row">
+                        <div class="muahang col m-6 l-2-4">
+                            <h3>mua hàng trực tuyến</h3>
+                            <p><a href="">0938.803.633</a></p>
+                            <span><a href="">sale.online@totoshop.vn</a></span>
+                        </div>
+                        <div class="muahang col m-6 l-2-4">
+                            <h3>hotline góp ý</h3>
+                            <p><a href="">0908.18.12.89</a></p>
+                            <span><a href="">cskh@totoshop.vn</a></span>
+                        </div>
+                        <div class="text-list col m-4 l-2-4">
+                            <h3>Thông tin</h3>
+                            <a href="">Giới thiệu</a>
+                            <a href="">Liên hệ công ty</a>
+                            <a href="">Đối tác</a>
+                            <a class="tuyendung" href="">Tuyển dụng</a>
+                        </div>
+                        <div class="text-list col m-4 l-2-4">
+                            <h3>Chính sách</h3>
+                            <a href="">Chính sách đổi hàng</a>
+                            <a href="">Chính sách bảo hành</a>
+                            <a href="">Chính sách bảo mật</a>
+                            <a href="">Chính sách hoàn tiền</a>
+                        </div>
+                        <div class="text-list col m-4 l-2-4">
+                            <h3>FAQ</h3>
+                            <a href="">Thanh toàn và vận chuyển</a>
+                            <a href="">Hướng dẫn chọn size</a>
+                            <a href="">Kiểm tra thông tin đơn hàng</a>
+                            <a href="">Câu hỏi thường gặp</a>
+                        </div>
+                    </div>
+                    <div class="footer-input row">
+                        <div class="footer-input-item">
+                            <p>Đăng kí nhận khuyến mãi</p>
+                            <div>
+                                <input type="text" placeholder="Nhập vào email của bạn" id="input-footer">
+                                <label for="input-footer">GỬI</label>
+                            </div>
+                        </div>
+                        <div class="footer-input-item">
+                            <p>Tra cứu đơn hàng của bạn</p>
+                            <div>
+                                <input type="text" placeholder="Nhập SĐT hoặc Mã số đơn hàng" id="input-footer">
+                                <label for="input-footer">TÌM</label>
+                            </div>
+                        </div>
+                        <div class="footer-gopy">
+                            <div class="thu">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <p><a href="">GÓP Ý/ THAN PHIỀN</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="js/animation.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
