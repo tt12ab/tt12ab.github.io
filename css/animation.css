@@ -1,0 +1,44 @@
+.fade-up-down{
+    visibility: hidden;
+}
+.up-down{
+    animation-name: upDown;
+    -webkit-animation-name: upDown;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes upDown {
+    0%{
+        transform: translateY(70%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes upDown {
+    0%{
+        transform: translateY(70%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+.a-hover2::before{
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid var(--green-color);
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    transition: .3s linear;
+
+}
+.a-hover2:hover::before{
+    width: 100%;
+}
